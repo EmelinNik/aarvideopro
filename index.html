@@ -9,9 +9,9 @@
     <div id="playButton" style="position: absolute; z-index: 999; display: none;">
         <button id="startVideo">Play</button>
     </div>
-    <a-scene mindar-image="imageTargetSrc: ./path/to/your/targets.mind; autoStart: true;" embedded arjs='sourceType: webcam;'>
+    <a-scene mindar-image="imageTargetSrc: targets.mind; autoStart: true;" embedded arjs='sourceType: webcam;'>
         <a-assets>
-            <video id="my-video" autoplay loop muted playsinline src="./path/to/your/video.mp4"></video>
+            <video id="my-video" autoplay loop muted playsinline src="mov_bbb.mp4"></video>
         </a-assets>
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
         <a-entity id="example-target" mindar-image-target="targetIndex: 0">
